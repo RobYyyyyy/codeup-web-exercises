@@ -15,7 +15,7 @@ p {
 }
 
 span {
-                                                                                                     color: blue;
+    color: blue;
 }
 .extra span {
     color: inherit;
