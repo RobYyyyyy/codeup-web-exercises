@@ -1,0 +1,77 @@
+body {
+    background-color:;
+    color:;
+}
+head>
+<meta charset="UTF-8">
+<title>Style</title>;
+<style>
+<link rel="stylesheet" href="css/Intro_to_CSS.css";
+<link rel="stylesheet" href="css/style.css";
+body {
+    <h1> {
+        font-color:hotpink;
+    }
+}
+.fancy-header {
+    color: purple; /* single line comment */
+    text-decoration: underline;
+}
+
+/*4. Other Properties*/
+
+/* How does the unset CSS property work?*/
+//The unset CSS keyword resets a property to its inherited value if the property
+//naturally inherits from its parent, and to its initial value if not. In other words, it behaves like the inherit keyword in the first case, when the property is an inherited property, and like the initial keyword in the second case, when the property is a non-inherited property.
+//unset can be applied to any CSS property, including the CSS shorthand property all.
+
+//.foo {
+      color: blue;
+  }
+
+.bar {
+    color: green;
+}
+
+p {
+    color: red;
+}
+
+.bar p {
+    color: unset;
+}
+//Results
+
+This text is red.
+
+This text is also red.
+
+This text is green (default inherited value).
+border is a non-inherited property.
+/* How does the inherit property work?*/
+//Keyword "inherit"
+
+//Set the text-color for <span> elements to blue, except those inside elements with class="extra":
+
+span {
+    color: blue;
+}
+
+.extra span {
+    color: inherit;
+}
+//object.style.property="inherit"
+
+/* How can CSS transform rotate or change the size of a displayed element?*/
+
+/* How do CSS transitions work (focus on a simple example)?*/
+
+/*How do CSS animations work (focus on a simple example)?*/
+
+/*What is the difference between display: none and display: hidden?*/
+
+/*When using and image and css folder in a project, why is the path to a background image in a stylesheet different than the path to the same image in an image tag?*/
+
+/*How can we control background image properties on a page? kj nHow can a background image be faded so that elements in the foreground are clearly visible?*/
+
+/*How can we change the symbols for list ite*/

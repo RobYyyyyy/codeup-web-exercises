@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: white;
+    margin-left: 5vw;
+}
+h1 {
+    font-family="Helvetica Neue", sans serif;
+}
+h2 {
+    border-bottom: 1px solid antiquewhite;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style;
+    italic;
+}
+li.italic {
+    fon-size: 1.2rem;
+}
+
+ul li {
+    color: lightblue;
+}
+/*ol li */

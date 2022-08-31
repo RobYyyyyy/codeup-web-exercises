@@ -1,0 +1,26 @@
+.foo {
+      color: blue;
+  }
+
+.bar {
+    color: green;
+}
+
+p {
+    color: red;
+}
+
+.bar p {
+    color: unset;
+}
+
+span {
+                                                                                                     color: blue;
+}
+.extra span {
+    color: inherit;
+}
+
+/*object.style.property="inherit"
+
+ */

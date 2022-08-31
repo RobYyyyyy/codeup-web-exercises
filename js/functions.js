@@ -8,10 +8,13 @@
 //  * Example
 //  * > sayHello("codeup") // returns "Hello, codeup!"
 //  */
+function("Hello, cedup!"){
+
+}
 //
-// /**"use strict";
+/**"use strict";
 //
-// var myNameIs = 'Bob'; // TODO: Fill in your name here.
+var myNameIs = 'Bob'; // TODO: Fill in your name here.
 //
 // // TODO:
 // // Create a function called 'sayHello' that takes a parameter 'name'.
@@ -21,7 +24,7 @@
 //
 // // Don't modify the following line
 // // It generates a random number between 1 and 100 and stores it in random
-// var random = Math.floor((Math.random()*100)+1);
+var random = Math.floor((Math.random()*100)+1);
 //
 // // TODO:
 // // Create a function called 'isOdd' that takes a number as a parameter.
@@ -98,14 +101,6 @@
 //  *
 //  * > applyDiscount(45.99, 0.12) // 40.4712
 //  */
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <title>first_functions</title>
-</head>
-<body>
-<script>
     function calculateCircumference(radius) {
     const pi = 3.14159
     return 2 * pi * radius;
@@ -166,4 +161,3 @@
     }
 </script>
 </body>
-</html>
