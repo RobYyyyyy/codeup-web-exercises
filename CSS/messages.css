@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Ubuntu, sans-serif;
+}
+
+    h1 {
+        box-sizing: border-box;
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 1px;
+        padding: 15px;
+        margin: 15px;
+        outline: 5px solid crimson;
+        box-color: blue;
+    }
+    p {
+        box-sizing: inherit;
+    }
+p {
+    box-sizing: inherit;
+}
+p {
+    box-sizing: inherit;
+}
+

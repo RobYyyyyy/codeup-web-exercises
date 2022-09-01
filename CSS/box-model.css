@@ -1,0 +1,21 @@
+body {
+    margin: 15px;
+}
+#main {
+    box-sizing: border-box;
+    width: 360px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px;
+    outline: 5px solid crimson;
+    box-shadow: -10px -10px 10px 10px darkgoldenrod;
+    margin-top: 50px;
+}
+p {
+    box-sizing: inherit;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 15px;
+}
