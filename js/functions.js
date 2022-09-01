@@ -8,18 +8,24 @@
 //  * Example
 //  * > sayHello("codeup") // returns "Hello, codeup!"
 //  */
-function("Hello, cedup!"){
 
+function("Hello, codeup!"){
 }
+**"use strict";
 //
-/**"use strict";
-//
-var myNameIs = 'Bob'; // TODO: Fill in your name here.
+function myNameIs(Rob) {
+var myNameIs = 'Rob';
+return Rob;
+// TODO: Fill in your name here.
 //
 // // TODO:
-// // Create a function called 'sayHello' that takes a parameter 'name'.
-// // When called, the function should log a message that says hello from the passed in name.
-//
+// // Create a function called 'sayHello' that takes a
+// parameter 'name'.
+// // When called, the function should log a message that
+// says hello from the passed in name.
+function sayHello() {
+console.log("Hello");
+}
 // // TODO: Call the function 'sayHello' passing the variable 'myNameIs' as a parameter.
 //
 // // Don't modify the following line
@@ -30,7 +36,9 @@ var random = Math.floor((Math.random()*100)+1);
 // // Create a function called 'isOdd' that takes a number as a parameter.
 // // The function should use the ternary operator to log a message.
 // // The log should tell the number passed in and whether it is odd or not.
-//
+function isOdd(num) {
+return number 2 === 1;
+}
 // // TODO: Call the function 'isOdd' passing the variable 'random' as a parameter.
 //  * TODO:
 //  * Call the function 'sayHello' and pass your name as a string literal argument.
@@ -38,24 +46,35 @@ var random = Math.floor((Math.random()*100)+1);
 //  *
 //  * console.log 'helloMessage' to check your work
 //  */
-//
+    var myName ="Rob"
+    comsole.log=
+    function sayHello(myName)
+    var myStr =""
+
+    let helloMessage = sayHello("Rob");
+    console.log(helloMessage);
 // /**
 //  * TODO:
 //  * Store your name as a string in a variable named 'myName', and pass that
 //  * variable to the 'sayHello' function. You should see the same output in the
 //  * console.
 //  */
-//
+    let myName = "Rob";
+    console.log(sayHello(myName));
 // // Don't modify the following line, it generates a random number between 1 and 3
 // // and stores it in a variable named random
-// var random = Math.floor((Math.random() * 3) + 1);
+ var random = Math.floor((Math.random() * 3) + 1);
 //
 // /**
 //  * TODO:
 //  * Create a function called 'isTwo' that takes a number as a parameter.
 //  * The function should return a boolean value based on whether or not the passed
 //  * number is the number 2.
-//  *
+
+    function isTwo(number){
+        return number === 2;
+    }
+    console.log(isTwo(random));
 //  * Example
 //  * > isTwo(1) // returns false
 //  * > isTwo(2) // returns true
@@ -79,14 +98,18 @@ var random = Math.floor((Math.random()*100)+1);
 //  * > calculateTip(0.25, 25.50) // returns 6.375
 //  * > calculateTip(0.15, 33.42) // returns 5.013
 //  */
-//
+    function calculateTip(tipPercentage, billTotal){
+        return billTotal * tipPercentage;
 // /**
 //  * TODO:
 //  * Use prompt and alert in combination with your calculateTip function to
 //  * prompt the user for the bill total and a percentage they would like to tip,
 //  * then display the dollar amount they should tip
 //  */
-//
+        function applyDiscount(priceBeforeDiscount, discountPercentage) {
+            //return priceBeforeDiscount * (1 - discountPercentage);
+            return priceBeforeDiscount - (priceBeforeDiscount * discountPercentage);
+        }
 // /**
 //  * TODO:
 //  * Create a function named `applyDiscount`. This function should accept a price

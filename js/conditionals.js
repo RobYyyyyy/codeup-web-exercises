@@ -9,6 +9,26 @@
 //  * color stated in the argument of the function. For colors you do not have
 //  * responses written for, return a string stating so
 //  *
+function analyzeColor(color){
+    switch (color) {
+        case 'red':
+            return "Roses are red";
+        case 'orange':
+            return "Orange is pumpkins and prison clothes";
+        case 'yellow':
+            return "Our sun is a yellow star";
+        case 'green':
+            return "Plant life is green";
+        case 'blue':
+            return "The sky is blue";
+        case 'indigo':
+            return "Is indigo even a real rainbow color?";
+        case 'violet':
+            return "Who ever said violets are blue?";
+        default:
+            return "I don't even know that color";
+    }
+}
 //  * Example:
 //  *  > analyzeColor('blue') // returns "blue is the color of the sky"
 //  *  > analyzeColor('red') // returns "Strawberries are red"
@@ -24,11 +44,11 @@
 //
 // // Don't change the next two lines!
 // // These lines create two variables for you:
-// // - `colors`: a list of the colors of the rainbow
-// // - `randomColor`: contains a single random color value from the list (this
+//- `colors`: a list of the colors of the rainbow
+//- `randomColor`: contains a single random color value from the list (this
 // //                  will contain a different color every time the page loads)
-// var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
-// var randomColor = colors[Math.floor(Math.random() * colors.length)];
+ var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+ var randomColor = colors[Math.floor(Math.random() * colors.length)];
 // /**
 //  * TODO:
 //  * Pass the `randomColor` variable to your 'analyzeColor' function and console.log the results.
@@ -68,7 +88,20 @@
 //  * Test your function by passing it various values and checking for the expected
 //  * return value.
 //  */
-//
+function calculateTotal(luckyNumber, total){
+    if (luckyNumber === 0) {
+        return total;
+    } else if (luckyNumber === 1) {
+        return total * .9;
+    } else if (luckyNumber === 2) {
+        return total * .75;
+    } else if (luckyNumber === 3) {
+        return total * .65;
+    } else if (luckyNumber === 4) {
+        return total * .5;
+    } else if (luckyNumber === 5) {
+        return 0;
+    }
 // /**
 //  * TODO:
 //  * Uncomment the line below to generate a random number between 0 and 5.
@@ -77,8 +110,8 @@
 //  * and alerts to display to the user what their lucky number was, what their
 //  * price before the discount was, and what their price after the discount is.
 //  */
-// // Generate a random number between 0 and 6
-// // var luckyNumber = Math.floor(Math.random() * 6);
+Generate a random number between 0 and 6
+var luckyNumber = Math.floor(Math.random() * 6);
 //
 // /**
 //  * TODO:
@@ -97,3 +130,38 @@
 //  *
 //  * Can you refactor your code to use functions?
 //  * HINT: The way we prompt for a value could be improved
+    function isNumber(value){
+        return !(isNaN(value) || typeof value === "boolean");
+    }
+
+    function oddOrEven(number){
+        return number % 2 === 0 ? number + " is even." : number + " is odd.";
+    }
+    function numberPlus100(number){
+        return number + " plus 100 equals " + (number + 100);
+    }
+
+    function negativeOrPositive(number){
+        return number < 0 ? number + " is a negative number. " : number + " is a positive number";
+    }
+
+    function getNumber(){
+        if (confirm("Do you want to enter a number?")){
+            return parseFloat(prompt("Enter a number:"));
+        }
+    }
+
+    function analyzeNumber(number){
+        if (number === undefined){
+            return false;
+        }
+        if (isNumber(number)){
+            alert(oddOrEven(number));
+            alert(numberPlus100(number));
+            alert(negativeOrPositive(number));
+        } else {
+            alert("Incorrect input data type");
+        }
+    }
+
+    analyzeNumber(getNumber());
