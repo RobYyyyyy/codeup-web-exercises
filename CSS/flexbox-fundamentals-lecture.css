@@ -1,0 +1,17 @@
+.flexbox {
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    height: 70vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+/*justify content defines the distribution of space along the
+main access*/
+    justify-content: stretch;
+}
+.flex-item {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
