@@ -9,9 +9,29 @@
 /*justify content defines the distribution of space along the
 main access*/
     justify-content: stretch;
+/* Align items controls the alignment of flex items along the cross axis */
+    align-items: baseline;
+    /* Align-content is used to control how extra cross-axis space
+    is distributed between and around flex lines.  It applies only to
+    containers with multiple flex-lines*/
+    align-content: flex-start;
 }
+
 .flex-item {
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
+    align-items: baseline;
+
+.flex-item {
+    border: 1px solid black;
+    margim: 5px;
+    padding: 5px;
 }
+.upsize {
+    font-size: 150%;
+}
+.top margin {
+    margin-top: 30px;
+}
+.five {flex-grow: 1}
